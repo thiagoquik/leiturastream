@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html 
+	xmlns:th="http://www.thymeleaf.org" 
+	xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+	layout:decorator="index" 
+	lang="pt-br">
+	<body>
+		<div layout:fragment="content" class="container">
+	        <div class="css-caixa">
+	            <section id="forms">
+	                <h2>Leitura de Stream</h2>
+	                    <form action="" method="POST">
+	                        <div class="form-group">
+	                            <textarea required="true" name="texto" placeholder="Digite aqui sua stream." class="form-control"></textarea>
+	                        </div>
+	                        <button type="submit" id="btnValidar" class="btn btn-embossed btn-primary form-group">Processar</button>
+	                    </form>
+	            </section>
+			</div>
+		</div>
+	</body>
+</html>
